@@ -6,7 +6,7 @@ function dydt = OdeFun(t, y)
     x2 = y(3); v2 = y(4);
 
     % Sila F(t)
-    F = ForceF(t);
+    F = 100*ForceF(t);
 
     % Diferencijalne jedna?ine
     dx1dt = v1;
